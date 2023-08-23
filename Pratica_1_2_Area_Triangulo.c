@@ -12,7 +12,7 @@ int main(void){
   printf("Altura: ");
   scanf("%d", &altura);
   
-  area = (base * altura)/2;
+  area = (base * altura)/2.0f;
   printf("%.2f", area);
   return 0;
 }
